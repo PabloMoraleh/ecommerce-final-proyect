@@ -14,7 +14,7 @@ from flask_jwt_extended import create_access_token
 from flask_jwt_extended import get_jwt_identity
 from flask_jwt_extended import jwt_required
 from flask_jwt_extended import JWTManager
-from .env import BDD, DB_USER, DB_PASSWORD, DB_HOST
+from env import BDD, DB_USER, DB_PASSWORD, DB_HOST
 
 
 # from models import Person
